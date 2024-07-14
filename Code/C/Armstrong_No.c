@@ -6,12 +6,12 @@
 int main()
 {
     int num, originalNum, remainder, n = 0;
-    float result = 0.0; // Corrected variable name from 'resul' to 'result'
+    float result = 0.0;
 
     printf("Enter an integer:\n");
     scanf("%d", &num);
 
-    originalNum = num; // Added missing semicolon
+    originalNum = num;
 
     // Calculate the number of digits in num
     for (originalNum = num; originalNum != 0; ++n)
